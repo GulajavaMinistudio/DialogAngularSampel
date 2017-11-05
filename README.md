@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Bersumberkan dari latihan tentang Simple Modal dari kanal Youtube Traversy Media di sini https://www.youtube.com/watch?v=6ophW7Ask_0
 
 Demo dari bentuk tampilan jadinya dapat dilihat disini
-https://gulajavaministudio.github.io/DialogAngularSampelDemo/
+https://dialog-angular5-demo.firebaseapp.com/dialogdemo
 
 ## Development server
 
