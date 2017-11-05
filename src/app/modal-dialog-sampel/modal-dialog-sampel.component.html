@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Simpel Dialogs</title>
+</head>
+
+<body>
+<!-- tombol menampilkan dialog -->
+<button id="modalButton" class="button" (click)="showDialogButtonViewChild()">Tampilkan Dialog 1</button>
+<button class="button" (click)="showDialogButtonElementRef()">Tampilkan Dialog 2</button>
+
+<!-- layout untuk dialog -->
+<div id="simpelDialog" class="modal" #simpeldialog>
+  <div class="dialog-content">
+    <div class="dialog-header">
+      <span class="closeButton" (click)="closeDialogButton()">&times;</span>
+      <h2>Dialog Header</h2>
+    </div>
+    <div class="dialog-body">
+      <p>Hello World Saya Modal Dialog di Angular</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto assumenda consectetur corporis dolorum
+        earum eligendi facilis inventore magnam magni, modi molestias non numquam quam recusandae reiciendis sapiente
+        vitae voluptatem voluptatum.
+      </p>
+    </div>
+    <div class="dialog-footer">
+      <h3>Dialog Footer</h3>
+    </div>
+  </div>
+</div>
+
+
+</body>
+
+</html>
